@@ -19,6 +19,10 @@ config/name="TheandrasUnderworldPath"
 run/main_scene="res://scenes/entities/player_characters/theandra.tscn"
 config/icon="res://icon.png"
 
+[autoload]
+
+ProficiencyManager="*res://src/proficiencies/ProficiencyManager.gd"
+
 [rendering]
 
 environment/default_environment="res://default_env.tres"

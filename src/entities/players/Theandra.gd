@@ -1,4 +1,4 @@
-extends "res://entities/players/scripts/Player.gd"
+extends "res://src/entities/players/Player.gd"
 
 
 # Called when the node enters the scene tree for the first time.
@@ -13,3 +13,7 @@ func _ready():
 	stat_int = 10
 	stat_wis = 16
 	stat_cha = 12
+	
+	proficiencies.append(ProficiencyManager.get_light_armor_proficiency())
+	proficiencies.append(ProficiencyManager.get_medium_armor_proficiency())
+	proficiencies.append(ProficiencyManager.get_heavy_armor_proficiency())

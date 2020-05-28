@@ -1,9 +1,9 @@
 extends Node
 
-var item_name = ""
-var description = ""
-var weight = 0
-var value = 0
+export var item_name = ""
+export var description = ""
+export var weight = 0
+export var value = 0
 
 # getters
 func get_name():

@@ -1,4 +1,4 @@
-extends "res://entities/scripts/Character.gd"
+extends "res://src/entities/Entity.gd"
 
 var levels_barbarian = 0
 var levels_bard = 0
