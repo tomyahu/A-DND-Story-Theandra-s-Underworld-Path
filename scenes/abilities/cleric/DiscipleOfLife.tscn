@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://src/abilities/Ability.gd" type="Script" id=1]
+
+[node name="Node" type="Node"]
+script = ExtResource( 1 )
+ability_name = "Disciple of Life"
+ability_description = "Starting at 1'st level, your healing spells are more effective. Whenever you use a spell of 1'st level or higher to restore hitpoints to a creature, the creature regains additional hit points equal to 2 + the spell's level."
